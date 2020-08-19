@@ -9,11 +9,11 @@ public class PromotionExample {
     class E extends C{};
 
     public static void main(String[] args) {
-        B b = new B();
-        C c = new C();
-        D d = new D();
+       // B b = new B();
+        //C c = new C();
+        //D d = new D();
 
-        A A1 = b;
-        
+        //A A1 = b;
+
     }
 }
