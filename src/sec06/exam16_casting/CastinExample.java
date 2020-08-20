@@ -8,5 +8,10 @@ public class CastinExample {
         parent.b= 1;
         Child child = (Child) parent;
         child.c = 4;
+
+        /*
+        *
+        * Casting은 상속 관계에 할수 있다.
+        * */
     }
 }
