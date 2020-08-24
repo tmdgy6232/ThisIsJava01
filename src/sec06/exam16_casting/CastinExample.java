@@ -11,7 +11,8 @@ public class CastinExample {
 
         /*
         *
-        * Casting은 상속 관계에 할수 있다.
+        * Casting은 상 속 관계에 할수 있다.
+        * 자식을 부모로 캐스팅 하는건 가능하지만 반대는 되지 않는다.
         * */
     }
 }
