@@ -8,4 +8,12 @@ public interface RemoteControl {
      * 단어의 조합일 경우 _로 구분한다.
      *
      * */
+
+    /**
+     * 추상 메소드
+     * */
+    public void turnOn();
+    public void turnOff();
+    public void setVolume(int volume);
+    
 }
