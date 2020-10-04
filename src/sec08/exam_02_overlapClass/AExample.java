@@ -11,5 +11,11 @@ public class AExample {
         A.B b = a.new B();
         b.field1 = 3;
         b.method1();
+
+        /**
+         * 정적 클래스는 감싸주는 클래스를 선언하지 않아도 선언 가능하다.
+         * */
+        A.C c = new A.C();
+
     }
 }
