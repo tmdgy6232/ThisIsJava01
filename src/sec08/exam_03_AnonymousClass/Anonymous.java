@@ -1,5 +1,7 @@
 package sec08.exam_03_AnonymousClass;
 
+import sec06.exam13_override.pakege2.C;
+
 public class Anonymous {
     //필드 초기값 대입
     Person field = new Person(){
@@ -33,6 +35,23 @@ public class Anonymous {
 
     void method2(Person person){
         person.wake();
+    }
+
+    void method3(final int arg1, int arg2){
+        final int var1 = 1;
+        int var2 = 2;
+
+        int data = 10;
+
+        Calculatable calculatable = new Calculatable() {
+            @Override
+            public int sum() {
+                int result = data + arg1 +arg2+var1+var2;
+                return result;
+            }
+        };
+
+        System.out.println(calculatable.sum());
     }
 
 }

@@ -31,5 +31,6 @@ public class AnonymousExample {
                 System.out.println("TV를 끕니다..");
             }
         };
+        anony.method3(10,5);
     }
 }
