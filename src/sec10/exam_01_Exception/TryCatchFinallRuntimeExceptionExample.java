@@ -11,5 +11,12 @@ public class TryCatchFinallRuntimeExceptionExample {
         } catch (Exception e){
             System.out.println("아규먼트가 없습니다.");
         }
+
+        try{
+            data1 = args[0];
+            data2 = args[1];
+        } catch ( java.lang.ArrayIndexOutOfBoundsException | java.lang.NumberFormatException a){
+            System.out.println("멀티캐치");
+        }
     }
 }
