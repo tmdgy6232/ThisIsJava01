@@ -14,4 +14,3 @@ public class DateExample {
         System.out.println(strNow2);
     }
 }
- 
