@@ -16,11 +16,11 @@ public class ThreadGroupExample {
         mainGroup.list();
         System.out.println();
 
-        try{
+        try {
             Thread.sleep(3000);
-        }catch (Exception e){}
+        } catch (Exception e){}
 
-        System.out.println(" [ myGroup 스레드 그룹의 interrupt() method call ]");
+        System.out.println(" [ myGroup 스레드 그룹의 interrupt() method call ] ");
         myGroup.interrupt();
     }
 }
