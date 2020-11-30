@@ -20,3 +20,4 @@ public class Product<A, B> {
         this.model = model;
     }
 }
+class  Tv{}
