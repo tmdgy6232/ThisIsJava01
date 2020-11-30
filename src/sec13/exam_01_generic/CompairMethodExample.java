@@ -20,7 +20,7 @@ public class CompairMethodExample {
      if (result2){
          System.out.println("논리적으로 동등한 객체입니다.");
      } else {
-         System.out.println("논리적으로 동등하지 않은 객체입니다..");
+         System.out.println("논리적으로 동등하지 않은 객체입니다.");
      }
 
     }
