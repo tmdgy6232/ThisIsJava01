@@ -10,6 +10,6 @@ public class ChildProductAndStorageExample {
         Storage<Tv> storage = new StorageImpl<>(100);
         storage.add(new Tv(), 0);
         Tv tv = storage.get(0);
-        
+
     }
 }
