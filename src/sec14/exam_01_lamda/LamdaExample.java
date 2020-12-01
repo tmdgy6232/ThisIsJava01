@@ -10,5 +10,6 @@ public class LamdaExample {
         Thread thread = new Thread(runnable);
 
         thread.start();
+
     }
 }
