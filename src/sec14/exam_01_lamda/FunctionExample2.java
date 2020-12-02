@@ -19,8 +19,8 @@ public class FunctionExample2 {
         for (Student student : list) {
             sum += function.applyAsInt(student);
         }
-
-        return 0.01;
+        double doubleValue = (sum / list.size());
+        return doubleValue;
     };
 
 }
