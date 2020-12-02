@@ -5,12 +5,21 @@ import java.util.Objects;
 public class Student {
     public int sno;
     public String name;
+    public String engScore;
+    public String mathScore;
 
     public Student(int sno){
         this.sno = sno;
     }
     public Student(int sno, String name){
         this.sno = sno; this.name = name;
+    }
+
+    public Student(int sno, String name, String engScore, String mathScore) {
+        this.sno = sno;
+        this.name = name;
+        this.engScore = engScore;
+        this.mathScore = mathScore;
     }
 
     @Override
