@@ -19,8 +19,13 @@ public class FunctionExample2 {
         for (Student student : list) {
             sum += function.applyAsInt(student);
         }
-        double doubleValue = (sum / list.size());
+        double doubleValue = (double) sum / list.size();
         return doubleValue;
     };
+
+    public static void main(String[] args) {
+        double englishAvg = avg( s -> Integer.parseInt(s.engScore));
+        System.out.println("영어 평균점수 : " + englishAvg);
+    }
 
 }
