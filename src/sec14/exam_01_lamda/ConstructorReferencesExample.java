@@ -11,7 +11,5 @@ public class ConstructorReferencesExample {
         BiFunction<String, String, Man> function2 = Man :: new;
         Man man2 = function2.apply("샹크스", "미호크");
 
-
-
     }
 }
