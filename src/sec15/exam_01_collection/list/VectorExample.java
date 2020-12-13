@@ -22,7 +22,7 @@ public class VectorExample {
 
         for (int i=0; i< list.size(); i++){
             Board board = list.get(i);
-            
+
             System.out.println(board.subject + board.content + board.writer);
         }
     }
