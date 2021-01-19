@@ -1,6 +1,7 @@
 package sec16.exam_01_stream;
 
 public class Member {
+
     public static int MALE = 0;
     public static int FEMALE = 1;
 
@@ -24,5 +25,9 @@ public class Member {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getName() {
+        return name;
     }
 }
