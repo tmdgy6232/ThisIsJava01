@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<HBox xmlns:fx="http://javafx.com/fxml"> <!-- hbox  컨테이너 설정 -->
+    <padding> <!-- 안쪽 여백 설정 -->
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    <spacing>10</spacing> <!-- 컨트롤 간의 수평 설정 -->
+
+    <children>              <!-- 자식 컨트롤 추가 -->
+        <TextField>         <!-- 텍스트 필드 선언 -->
+            <prefWidth>200</prefWidth> <!-- 텍스트 필드의 폭 설 -->
+        </TextField>
+
+        <Button>            <!-- 버튼 생성 -->
+            <text>확인</text> <!-- 버튼 글자 설정  -->
+        </Button>
+    </children>
+</HBox>
