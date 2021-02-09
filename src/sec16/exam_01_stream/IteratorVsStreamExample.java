@@ -21,6 +21,6 @@ public class IteratorVsStreamExample {
         //Stream 이용
         Stream<String> stream = list.stream();
         stream.forEach(name -> System.out.println(name));
-
+        
     }
 }
