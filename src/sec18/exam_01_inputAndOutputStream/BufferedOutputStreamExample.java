@@ -43,7 +43,5 @@ public class BufferedOutputStreamExample {
         bos.close();fos.close();bis.close();fis.close();
 
         System.out.println("사용하였을 때 : " + (end - start ) + "ms");
-
-
     }
 }
