@@ -16,7 +16,7 @@ public class ServerExample {
                 System.out.println("[연결 기다림]");
                 Socket socket = serverSocket.accept();      // 클라이언트 연결 수락
                 InetSocketAddress isa = (InetSocketAddress) socket.getRemoteSocketAddress();
-                System.out.println("[연결 수락함]" + isa.getHostName());
+                System.out.println("[연결 수락함]" + isa.getAddress());
            }
         } catch (Exception e){}
 
